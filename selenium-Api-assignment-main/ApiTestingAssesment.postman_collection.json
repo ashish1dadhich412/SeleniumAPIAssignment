@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "1b06f6f1-9dbe-4363-a6b8-a530780f8a0f",
+		"name": "ApiTestingAssesment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37721514"
+	},
+	"item": [
+		{
+			"name": "getRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyjson.com/recipes",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyjson.com/recipes/add",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://dummyjson.com/recipes/5",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://dummyjson.com/recipes/8",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetch request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyjson.com/recipes/10",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dummyjson.com/recipes/search?q=chicken",
+					"protocol": "https",
+					"host": [
+						"dummyjson",
+						"com"
+					],
+					"path": [
+						"recipes",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "chicken"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
